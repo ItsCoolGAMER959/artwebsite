@@ -1,0 +1,89 @@
+html {
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://d1dxs113ar9ebd.cloudfront.net/225batonrouge/2018/06/iStock-art-painting.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.parent {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.child {
+  background-color: white;
+  width: 300px;
+  height: 350px;
+  border-radius: 25px;
+  position: fixed;
+  bottom: 25%;
+  padding: 20px;
+  transform: translate(0px, 100px);
+}
+.parent2 {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.child2 {
+  display: none;
+  border: 2px solid green;
+  background-color: white;
+  width: 300px;
+  height: 350px;
+  border-radius: 25px;
+  position: fixed;
+  bottom: 25%;
+  text-align: center;
+  transform: translate(0px, 100px);
+  padding: 20px;
+}
+.submitted {
+  font-family: "Bungee Shade", sans-serif;
+  font-size: 40px;
+  color: #023020;
+}
+.submitbutton {
+  border: none;
+  border-radius: 25px;
+  height: 40px;
+  width: 75px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+label {
+  font-family: sans-serif;
+  transform: translate(20px);
+}
+input:not(.submitbutton) {
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px;
+  height: 15px;
+}
+select {
+  border-radius: 25px;
+  border: none;
+  height: 30px;
+  width: 150px;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  text-align: center;
+  transform: translate(30px, 0px);
+  cursor: pointer;
+}
+h1 {
+  font-family: "Bungee Shade", sans-serif;
+  padding: 5px;
+  color: white;
+}
