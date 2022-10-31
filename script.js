@@ -17,6 +17,6 @@ $("form").on("submit", function (e) {
 });
 let firstName = document.getElementsByName("First Name")[0].value;
 function formChanged() {
-  firstName = document.getElementsByName("First Name")[0].value;
+  firstName = Hidt;
 }
 document.getElementById("greeting").innerHTML = firstName;
