@@ -17,7 +17,7 @@
 <div class="parent">
   <div class="child">
     <form action="https://script.google.com/macros/s/AKfycbzvcDMLP9KqNzzAQczx4XXmmFEprSJpDXqmM1NUwmuxe61ay5qNoFMQW3phj9s6ck9v/exec" method="post" id="my-form" autocomplete="off">
-      <p><label>First Name: <input type="text" name="First Name" require autocomplete="off" /></label></p>
+      <p><label>First Name: <input type="text" name="First Name" required autocomplete="off" onkeyup="formChanged()" onchange="formChanged()"/></label></p>
       <p><label>Last Name: <input type="text" name="Last Name" required autocomplete="off" /></label></p>
       <p><label>Year Group: <select name="Year Group" required>
             <option value="Year 7">Year 7</option>
