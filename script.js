@@ -15,3 +15,7 @@ $("form").on("submit", function (e) {
   $(".child").remove();
   $(".child2").show();
 });
+let firstName = document.getElementsByName("First Name")[0].value;
+function formChanged() {
+  firstName = document.getElementsByName("firstname")[0].value;
+}
