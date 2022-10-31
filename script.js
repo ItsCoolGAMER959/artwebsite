@@ -17,5 +17,5 @@ $("form").on("submit", function (e) {
 });
 let firstName = document.getElementsByName("First Name")[0].value;
 function formChanged() {
-  firstName = document.getElementsByName("firstname")[0].value;
+  firstName = document.getElementsByName("First Name")[0].value;
 }
