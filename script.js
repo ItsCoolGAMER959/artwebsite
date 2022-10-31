@@ -19,3 +19,4 @@ let firstName = document.getElementsByName("First Name")[0].value;
 function formChanged() {
   firstName = document.getElementsByName("First Name")[0].value;
 }
+document.getElementById("greeting").innerHTML = firstName
